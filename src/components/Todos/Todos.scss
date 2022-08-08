@@ -1,0 +1,28 @@
+.app__todos {
+  width: var(--desktop-width);
+  margin: 15px 0;
+
+  text-align: left;
+
+  .app__todosFilters {
+    margin: 15px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.8rem;
+
+    .app__todosFilter {
+      margin-left: 30px;
+      cursor: pointer;
+
+      &:hover {
+        color: var(--primary-color);
+      }
+
+      &.selected {
+        color: var(--primary-color);
+      }
+    }
+  }
+}
